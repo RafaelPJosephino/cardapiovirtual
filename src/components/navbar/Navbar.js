@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Component } from "react"
 import Logo from "../Itens/imgs/Logo JNLanches.jpg"
 import "./Navbar.css"
@@ -17,16 +18,16 @@ class Navbar extends Component {
           <div>
             <ul id="navbar" className={this.state.clicked? "#navbar active" :"#navbar"}>
               <li>
-                <a onClick={()=>{this.props.selecionarCategoria(0)}} className="active" >Todos</a>
+                <a  onClick={()=>{this.props.selecionarCategoria(0)}} className="active" >Todos</a>
               </li>
               <li>
-                <a onClick={()=>{this.props.selecionarCategoria(1)}}>Porções</a>
+                <a  onClick={()=>{this.props.selecionarCategoria(1)}}>Porções</a>
               </li>
               <li>
-                <a onClick={()=>{this.props.selecionarCategoria(2)}}>Hamburguers</a>
+                <a  onClick={()=>{this.props.selecionarCategoria(2)}}>Hamburguers</a>
               </li>
               <li>
-                <a onClick={()=>{this.props.selecionarCategoria(3)}}>Combos</a>
+                <a  onClick={()=>{this.props.selecionarCategoria(3)}}>Combos</a>
               </li>
             </ul>
           </div>
