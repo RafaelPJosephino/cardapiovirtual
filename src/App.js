@@ -150,9 +150,7 @@ export class App extends Component {
     };
   }
   selecaoCategoria(select) {
-    console.log(this.state.categoria)
     this.setState({ categoria: select })
-    console.log(this.state.categoria)
   }
   render() {
     return (
