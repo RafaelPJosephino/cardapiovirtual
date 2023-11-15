@@ -37,6 +37,16 @@ nav {
 #navbar li a.active {
     color: rgb(131, 131, 131);
 }
+#navbar li  a.whatsapp {
+    color: white;
+    background: green;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+
+}
 
 #navbar li a:hover::after #navbar li a.active::after {
     content: "";
